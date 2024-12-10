@@ -7,8 +7,8 @@ This is a backend service for an e-commerce platform. It provides RESTful APIs f
 
 ## Features
 - **User Management**: User registration, login (JWT authentication) and profile updates.
-- **Product Management**: CRUD operations for products, categories and inventory tracking.
 - **Orders Management**: Create, view and manage customer orders.
+- **Mail Confirmation**: Sending confirmation emails after a customer successfully places an order.
 
 ---
 
