@@ -38,6 +38,7 @@ public class AuthController {
         user = service.getUserDetails(user.getEmail());
 
         AuthResponse response = new AuthResponse(user, token);
+        // AuthResponse response = new AuthResponse(token, user.getEmail(), user.getFirst_name(), user.getLast_name(), user.getPassword(), user.getPhone());
         return ResponseEntity.ok().body(response);
     }
 
